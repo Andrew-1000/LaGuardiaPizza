@@ -4,8 +4,9 @@
   width: 100%;
   display: flex;
   overflow: hidden;
-  height: calc(100vh - 100px);
+  height: calc(105vh - 100px);
   position: relative;
+  padding: 40px 0px 10px 0px;
 
 }
 
