@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Pizza Ordering</title>
+  <div class="jumbotron">
+
+  </div>
 </head>
 
 <body>
@@ -21,7 +24,26 @@
               <h1 class="h1start">Order Your Pizza Here</h1>
             </div>
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <label for="size">
+                    <h5>Flavour</h5>
+                  </label>
+                  <select class="form-control" name="flavour" id="flavour">
+                    <option value="">Proscuitto</option>
+                    <option value="">Cheese</option>
+                    <option value="">Buffalo Chicken Pizza</option>
+                    <option value="">Butternut Squash</option>
+                    <option value="">Cantaloupe And Sweet Ricotta</option>
+                    <option value="">Hummus and Grilled Zuchinni</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-2">
                 <div class="form-group">
                   <br>
                   <br>
@@ -37,7 +59,7 @@
                   </select>
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-2">
                 <div class="form-group">
                   <br>
                   <br>
@@ -54,7 +76,7 @@
 
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-2">
                 <div class="form-group">
                   <br>
                   <br>
@@ -64,7 +86,7 @@
                     <h5>Toppings</h5>
                   </label>
                   <select class="form-control" name="toppings" id="toppings">
-                    <option value="pepperoni">Pepperoni</option>
+                    <option class="form-control" value="pepperoni">Pepperoni</option>
                     <option value="Mushrooms">Mushrooms</option>
                     <option value="onions">Onions</option>
                     <option value="sausage">Sausage</option>
@@ -73,7 +95,7 @@
                   </select>
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-2">
                 <div class="form-group">
                   <br>
                   <br>
@@ -86,11 +108,16 @@
                 </div>
               </div>
             </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input type="submit" value="Place Order" class="btn btn-primary">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
-
     </div>
   </div>
 
