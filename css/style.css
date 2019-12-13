@@ -1,4 +1,15 @@
 body {
   background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  background-attachment: fixed;
 
+}
+
+.bodycover {
+  background-color: rgba(0, 0, 0, 0.328);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
 }
