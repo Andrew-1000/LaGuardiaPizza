@@ -3,10 +3,8 @@
   background-color: rgba(0, 0, 0, 0.753);
   width: 100%;
   display: flex;
-  overflow: hidden;
   height: calc(105vh - 100px);
-  position: relative;
-  padding: 80px 0px 0px 0px;
+   padding: 80px 0px 0px 0px;
 
 }
 
@@ -17,4 +15,14 @@
 .footertext{
   color: aliceblue;
   font-size: 1em;
+}
+
+.row-pad{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  padding: 200px 0px 0px 0px;
 }
