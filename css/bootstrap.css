@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- :root {
+:root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -70,6 +70,9 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 [tabindex="-1"]:focus {
@@ -605,9 +608,9 @@ pre code {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .container {
-    max-width: 70%;
+    max-width: 100%;
   }
 }
 

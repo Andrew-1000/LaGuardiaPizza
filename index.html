@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,90 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Pizza Ordering</title>
 </head>
+
 <body>
-  
+  <div class="container">
+    <div class="coverbody">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h1 class="h1start">Order Your Pizza Here</h1>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="form-group">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <label for="size">
+                    <h5>Size</h5>
+                  </label>
+                  <select class="form-control" name="size" id="size">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <label for="crust">
+                    <h5>Crust</h5>
+                  </label>
+                  <select class="form-control" name="crust" id="crust">
+                    <option value="crispy">Crispy</option>
+                    <option value="stuffed">Stuffed</option>
+                    <option value="noglutten">Gluten-free</option>
+                  </select>
+
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <label for="toppings">
+                    <h5>Toppings</h5>
+                  </label>
+                  <select class="form-control" name="toppings" id="toppings">
+                    <option value="pepperoni">Pepperoni</option>
+                    <option value="Mushrooms">Mushrooms</option>
+                    <option value="onions">Onions</option>
+                    <option value="sausage">Sausage</option>
+                    <option value="bacon">Bacon</option>
+                    <option value="cheese">Extra Cheese</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <label for="toppings">
+                    <h5>Quantity</h5>
+                  </label>
+                  <input name="quantity" id="quantity" class="form-control" type="number" min="1">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
 </body>
+
 </html>
