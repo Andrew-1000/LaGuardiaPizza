@@ -29,12 +29,12 @@
                       <h5>Flavour</h5>
                     </label>
                     <select class="form-control" name="flavour" id="flavour">
-                      <option value="">Proscuitto</option>
-                      <option value="">Cheese</option>
-                      <option value="">Buffalo Chicken Pizza</option>
-                      <option value="">Butternut Squash</option>
-                      <option value="">Cantaloupe And Sweet Ricotta</option>
-                      <option value="">Hummus and Grilled Zuchinni</option>
+                      <option value="500">Proscuitto</option>
+                      <option value="600">Cheese</option>
+                      <option value="700">Buffalo Chicken Pizza</option>
+                      <option value="800">Butternut Squash</option>
+                      <option value="900">Cantaloupe And Sweet Ricotta</option>
+                      <option value="1000">Hummus and Grilled Zuchinni</option>
                     </select>
                   </div>
                 </div>
@@ -44,9 +44,9 @@
                       <h5>Size</h5>
                     </label>
                     <select class="form-control" name="size" id="size">
-                      <option value="">Small</option>
-                      <option value="">Medium</option>
-                      <option value="">Large</option>
+                      <option value="100">Small</option>
+                      <option value="200">Medium</option>
+                      <option value="300">Large</option>
                     </select>
                   </div>
                 </div>
@@ -56,9 +56,9 @@
                       <h5>Crust</h5>
                     </label>
                     <select class="form-control" name="crust" id="crust">
-                      <option value="">Crispy</option>
-                      <option value="">Stuffed</option>
-                      <option value="">Gluten-free</option>
+                      <option value="250">Crispy</option>
+                      <option value="350">Stuffed</option>
+                      <option value="400">Gluten-free</option>
                     </select>
 
                   </div>
@@ -70,11 +70,11 @@
                     </label>
                     <select class="form-control" name="toppings" id="toppings">
                       <option class="form-control" value="pepperoni">Pepperoni</option>
-                      <option value="">Mushrooms</option>
-                      <option value="">Onions</option>
-                      <option value="">Sausage</option>
-                      <option value="">Bacon</option>
-                      <option value="">Extra Cheese</option>
+                      <option value="150">Mushrooms</option>
+                      <option value="200">Onions</option>
+                      <option value="250">Sausage</option>
+                      <option value="300">Bacon</option>
+                      <option value="350">Extra Cheese</option>
                     </select>
                   </div>
                 </div>
@@ -92,7 +92,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
-                  <input type="submit" value="Place Order" class="btn btn-primary">
+                  <input type="submit" value="Place Order" onclick="makeOrder()" class="btn btn-primary">
                 </div>
               </div>
             </div>
