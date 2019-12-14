@@ -71,8 +71,10 @@ body {
   text-align: left;
   background-color: #fff;
   background-image: url("../img/bg.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 [tabindex="-1"]:focus {
